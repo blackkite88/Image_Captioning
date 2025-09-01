@@ -1,6 +1,3 @@
-Perfect ✅ Here’s a clean **README.md** you can copy-paste directly:
-
-```markdown
 # 🖼️ Image Caption Generator
 
 This project implements an **Image Captioning Model** that combines **Computer Vision (CNN)** and **Natural Language Processing (RNN/LSTM)** to generate descriptive captions for images.  
