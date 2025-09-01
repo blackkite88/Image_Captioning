@@ -1,46 +1,51 @@
+
+---
+
 # 🖼️ Image Caption Generator
 
-This project implements an **Image Captioning Model** that combines **Computer Vision (CNN)** and **Natural Language Processing (RNN/LSTM)** to generate descriptive captions for images.  
+This project implements an **Image Captioning Model** that combines **Computer Vision (CNN)** and **Natural Language Processing (RNN/LSTM)** to generate descriptive captions for images.
 
 ---
 
 ## 📌 Features
-- Preprocessing of text captions and images  
-- Vocabulary creation and text cleaning  
-- Image feature extraction using Xception 
-- Sequence modeling with LSTMs  
-- Training script to build and save models  
-- Support for multiple saved models (`.h5`)  
+
+* Preprocessing of text captions and images
+* Vocabulary creation and text cleaning
+* Image feature extraction using Xception (or similar CNN)
+* Sequence modeling with LSTMs
+* Training script to build and save models
+* Support for multiple saved models (`.h5`)
 
 ---
 
 ## 📂 Project Structure
-```
 
-Image\_Caption\_Gen/
-│── model/                # Saved models (.h5) \[ignored in GitHub]
+```
+Image_Caption_Gen/
+│── model/                # Saved models (.h5) [ignored in GitHub]
 │── utils/                # Helper scripts
-│   ├── data\_loader.py
-│   ├── image\_processing.py
-│   ├── sequence\_utils.py
-│   └── text\_processing.py
+│   ├── data_loader.py
+│   ├── image_processing.py
+│   ├── sequence_utils.py
+│   └── text_processing.py
 │── train.py              # Training script
-│── caption\_model.py      # Model architecture
+│── caption_model.py      # Model architecture
 │── requirements.txt      # Python dependencies
 │── README.md             # Project documentation
 │── model.png             # Model architecture diagram
-│── venv/                 # Virtual environment \[ignored in GitHub]
-
-````
+│── venv/                 # Virtual environment [ignored in GitHub]
+```
 
 ---
 
 ## 🚀 Setup & Installation
+
 1. Clone this repository:
+
    ```bash
    git clone https://github.com/<your-username>/Image_Captioning.git
    cd Image_Captioning
-````
+   ```
 
 2. Create a virtual environment & activate it:
 
@@ -114,6 +119,10 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 
 ---
 
+## 📜 License
 
-Do you also want me to add a **Google Colab badge** at the top so others can run your code online without installing anything?
-```
+MIT License
+
+---
+
+Do you also want me to add a **Google Colab badge** at the very top (so people can run it online without installing)?
