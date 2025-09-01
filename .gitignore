@@ -1,0 +1,14 @@
+# Ignore model weights
+*.h5
+
+# Ignore virtual environments
+venv/
+
+# Ignore cache and temporary files
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+
+# Ignore dataset folder (if any)
+data/
