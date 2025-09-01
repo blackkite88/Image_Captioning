@@ -118,11 +118,3 @@ Trained models are saved in the `model/` directory as `.h5` files.
 Pull requests are welcome! For major changes, please open an issue first to discuss.
 
 ---
-
-## 📜 License
-
-MIT License
-
----
-
-Do you also want me to add a **Google Colab badge** at the very top (so people can run it online without installing)?
